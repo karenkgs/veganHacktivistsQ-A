@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Question;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/**
+ * Display All Questions
+ */
 Route::get('/', function () {
-    return view('welcome');
+    //
+});
+
+/**
+ * Add A New Question
+ */
+Route::post('/question', function (Request $request) {
+    //
 });
